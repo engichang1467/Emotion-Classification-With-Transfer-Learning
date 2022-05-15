@@ -1,4 +1,4 @@
-# Emotion Classification
+`    # Emotion Classification`
 
 - Used [transfer learning](https://towardsdatascience.com/transfer-learning-with-vgg16-and-keras-50ea161580b4) to build a convolutional neural network with [FER2013 dataset](https://www.kaggle.com/datasets/msambare/fer2013) that can classify emotion from different photos (Phoebe from F.R.I.E.N.D.S).
 
