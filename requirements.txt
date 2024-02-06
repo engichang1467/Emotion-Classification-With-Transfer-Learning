@@ -3,5 +3,6 @@ keras
 numpy
 matplotlib
 jupyter
-sklearn
+scikit-learn
 opencv-python
+scikeras[tensorflow-cpu]

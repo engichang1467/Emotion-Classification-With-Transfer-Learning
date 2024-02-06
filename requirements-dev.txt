@@ -1,0 +1,7 @@
+pytest
+pytest-cov
+pytest-mock
+pytest-subprocess
+black==23.3.0
+pyflakes
+twine
