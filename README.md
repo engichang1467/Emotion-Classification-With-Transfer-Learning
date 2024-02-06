@@ -25,23 +25,41 @@ Angry | Surprise
 ---- | ----
 ![angry](imgSrc/angryDetection.png) | ![surprise](imgSrc/surpriseDetection.png)
 
-## Requirements
+## Get Started
 
-- Python 3.7
-- TensorFlow
-- Keras
-- Numpy
-- Matplotlib
-- Jupyter
-- Sklearn
-- OpenCV
+- (Optional) Create a virtual environment and activate it.
 
-## Give it A Shot
+```bash
+virtualenv venv
+source venv/bin/activate
+```
+
+### Installation
 
 - Make sure you have all the packages installed from requirements.txt.
 
 ```bash
+pip install -m requirements-dev.txt
+
 pip install -m requirements.txt
 ```
 
 - Use the Jupyter Notebook (`test.ipynb`) to build the model and test the model's accuracy.
+
+### Train the Model
+
+```bash
+python3 model/train.py
+```
+
+### Fine-tune the Model
+
+```bash
+python3 model/fine_tune.py
+```
+
+### Test the Model
+
+```bash
+pytest -v --cov --cov-report term-missing
+```
